@@ -1,0 +1,38 @@
+﻿cGame.obj : error LNK2019: unresolved external symbol __imp_glutSwapBuffers referenced in function "public: void __cdecl cGame::Render(void)" (?Render@cGame@@QEAAXXZ)
+cGame.obj : error LNK2019: unresolved external symbol __imp_glutGet referenced in function "public: bool __cdecl cGame::Loop(void)" (?Loop@cGame@@QEAA_NXZ)
+GLUTMain.obj : error LNK2001: unresolved external symbol __imp_glutGet
+cMenuScene.obj : error LNK2019: unresolved external symbol __imp_glutBitmapCharacter referenced in function "public: void __cdecl cScene::renderBitmapString(float,float,float,void *,char *,float,float,float)" (?renderBitmapString@cScene@@QEAAXMMMPEAXPEADMMM@Z)
+cSound.obj : error LNK2019: unresolved external symbol FMOD_System_Create referenced in function "enum FMOD_RESULT __cdecl FMOD::System_Create(class FMOD::System * *)" (?System_Create@FMOD@@YA?AW4FMOD_RESULT@@PEAPEAVSystem@1@@Z)
+cSound.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::System::release(void)" (?release@System@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) referenced in function "private: __cdecl cSound::~cSound(void)" (??1cSound@@AEAA@XZ)
+cSound.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::System::init(int,unsigned int,void *)" (?init@System@FMOD@@QEAA?AW4FMOD_RESULT@@HIPEAX@Z) referenced in function "private: __cdecl cSound::cSound(void)" (??0cSound@@AEAA@XZ)
+cSound.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::System::update(void)" (?update@System@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) referenced in function "public: void __cdecl cSound::Update(void)" (?Update@cSound@@QEAAXXZ)
+cSound.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::System::createStream(char const *,unsigned int,struct FMOD_CREATESOUNDEXINFO *,class FMOD::Sound * *)" (?createStream@System@FMOD@@QEAA?AW4FMOD_RESULT@@PEBDIPEAUFMOD_CREATESOUNDEXINFO@@PEAPEAVSound@2@@Z) referenced in function "public: bool __cdecl cSound::Load(void)" (?Load@cSound@@QEAA_NXZ)
+cSound.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::System::playSound(enum FMOD_CHANNELINDEX,class FMOD::Sound *,bool,class FMOD::Channel * *)" (?playSound@System@FMOD@@QEAA?AW4FMOD_RESULT@@W4FMOD_CHANNELINDEX@@PEAVSound@2@_NPEAPEAVChannel@2@@Z) referenced in function "public: void __cdecl cSound::Play(int)" (?Play@cSound@@QEAAXH@Z)
+cSound.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::Sound::release(void)" (?release@Sound@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) referenced in function "private: __cdecl cSound::~cSound(void)" (??1cSound@@AEAA@XZ)
+cSound.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::Channel::stop(void)" (?stop@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@XZ) referenced in function "public: void __cdecl cSound::StopAll(void)" (?StopAll@cSound@@QEAAXXZ)
+cSound.obj : error LNK2019: unresolved external symbol "public: enum FMOD_RESULT __cdecl FMOD::Channel::setVolume(float)" (?setVolume@Channel@FMOD@@QEAA?AW4FMOD_RESULT@@M@Z) referenced in function "public: void __cdecl cSound::Play(int)" (?Play@cSound@@QEAAXH@Z)
+cTexture.obj : error LNK2019: unresolved external symbol CorOpenImage referenced in function "class corona::Image * __cdecl corona::OpenImage(char const *,enum corona::PixelFormat,enum corona::FileFormat)" (?OpenImage@corona@@YAPEAVImage@1@PEBDW4PixelFormat@1@W4FileFormat@1@@Z)
+cTexture.obj : error LNK2019: unresolved external symbol CorConvertImage referenced in function "class corona::Image * __cdecl corona::OpenImage(char const *,enum corona::PixelFormat,enum corona::FileFormat)" (?OpenImage@corona@@YAPEAVImage@1@PEBDW4PixelFormat@1@W4FileFormat@1@@Z)
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp_glewGetErrorString referenced in function main
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowPosition referenced in function main
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp_glutReshapeFunc referenced in function main
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardFunc referenced in function main
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp_glutMouseFunc referenced in function main
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp_glutIdleFunc referenced in function main
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp_glutSpecialFunc referenced in function main
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardUpFunc referenced in function main
+GLUTMain.obj : error LNK2019: unresolved external symbol __imp_glutSpecialUpFunc referenced in function main
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\corona.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\glew32.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\glut32.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\fmodex_vc.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\glew32mx.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\glew32mxs.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+D:\College\Semester 4\Computer Graphic\Lab\Assignment\Assignment - Rize Up - Framework\x64\Debug\Shared Framework.exe : fatal error LNK1120: 30 unresolved externals

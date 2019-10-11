@@ -1,0 +1,32 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Shared Framework.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  GLUTMain.cpp
+  cTexture.cpp
+  cSprite.cpp
+  cSound.cpp
+  cScene.cpp
+  cPlayer.cpp
+  cMenuScene.cpp
+d:\college\semester 4\computer graphic\lab\assignment\project - rize up\loderunner\cmenuscene.cpp(96): warning C4102: 'cMenuScene': unreferenced label
+  gameScene.cpp
+d:\college\semester 4\computer graphic\lab\assignment\project - rize up\loderunner\gamescene.cpp(153): warning C4018: '<': signed/unsigned mismatch
+d:\college\semester 4\computer graphic\lab\assignment\project - rize up\loderunner\gamescene.cpp(164): warning C4018: '<': signed/unsigned mismatch
+d:\college\semester 4\computer graphic\lab\assignment\project - rize up\loderunner\gamescene.cpp(181): warning C4018: '<': signed/unsigned mismatch
+  cLevel1Scene.cpp
+  cGasoline.cpp
+  cGameOverScene.cpp
+d:\college\semester 4\computer graphic\lab\assignment\project - rize up\loderunner\cgameoverscene.cpp(50): warning C4018: '<': signed/unsigned mismatch
+  cGameObject.cpp
+  cGame.cpp
+d:\college\semester 4\computer graphic\lab\assignment\project - rize up\loderunner\cgame.cpp(102): warning C4101: 'tex_w2': unreferenced local variable
+d:\college\semester 4\computer graphic\lab\assignment\project - rize up\loderunner\cgame.cpp(101): warning C4101: 'tex_h': unreferenced local variable
+d:\college\semester 4\computer graphic\lab\assignment\project - rize up\loderunner\cgame.cpp(101): warning C4101: 'tex_w': unreferenced local variable
+d:\college\semester 4\computer graphic\lab\assignment\project - rize up\loderunner\cgame.cpp(102): warning C4101: 'tex_h2': unreferenced local variable
+  cFireBall.cpp
+  cBlock.cpp
+  cAssetManager.cpp
+  cAnimControl.cpp
+  cAnimation.cpp
+  cBackground.cpp
+  Generating Code...
+  LodeRunner.vcxproj -> D:\College\Semester 4\Computer Graphic\Lab\Assignment\Project - Rize Up\Debug\Assignment - Shared Framework - Rize Up.exe
+  LodeRunner.vcxproj -> D:\College\Semester 4\Computer Graphic\Lab\Assignment\Project - Rize Up\Debug\Assignment - Shared Framework - Rize Up.pdb (Full PDB)
